@@ -13,6 +13,11 @@ namespace LineComparison
             double line2 = o2.CalculateLength();
             Console.WriteLine(line2);
 
+
+            if (line1.Equals(line2))
+                Console.WriteLine("line1 is equal to line2 ");
+            else Console.WriteLine("line1 is not equal to line2");
+
         }
     }
 
