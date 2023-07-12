@@ -18,6 +18,14 @@ namespace LineComparison
                 Console.WriteLine("line1 is equal to line2 ");
             else Console.WriteLine("line1 is not equal to line2");
 
+
+            if (line1.CompareTo(line2) == 0)
+                Console.WriteLine("line1 = line2");
+            if (line1.CompareTo(line2) > 0)
+                Console.WriteLine("line1 > line2");
+            if (line1.CompareTo(line2) < 0)
+                Console.WriteLine("line1 < line2");
+
         }
     }
 
